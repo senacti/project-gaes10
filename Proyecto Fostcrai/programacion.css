@@ -38,7 +38,7 @@ box-shadow: 0 0 20px 0 #000000;
 .banner {
 position: relative;
 height: 210px;
-background-image: url(/Proyecto/imagenes/imagen\ principal\ 2.jpg);      background-size: cover;
+background-image: url(/imagenes/imagen\ principal\ 2.jpg); background-size: cover;
 display: flex;
 justify-content: center;
 align-items: center;
