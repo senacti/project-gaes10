@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="programacion.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="testbox">
+        <form action="/">
+            <div class="banner">
+                <h1>Programa tu Evento Aquí</h1>
+            </div>
+             <div class="testbox"><h2>Ingresa los datos para programar el Evento</h2></div>
+            <div class="item">
+                <p>Ingresa la fecha</p>
+                <input type="date" name="bdate" />
+                <i class="fas fa-calendar-alt"></i>
+            </div>
+            <div class="item">
+                <p>Ingresar hora</p>
+                <input type="time" name="name" />
+                <i class="fas fa-clock"></i>
+            </div>
+            <div class="item">
+                <p>Ingresar lugar</p>
+                <input type="text" name="name" />
+            </div>
+            <div class="item">
+                <p>Tipo de Evento</p>
+                <select>
+                    <option value=""></option>
+                    <option value="1">*Please select*</option>
+                    <option value="2">Cumpleaños</option>
+                    <option value="3">Boda</option>
+                    <option value="4">Baby Shower</option>
+                    <option value="5">Fiesteas Tematicas</option>
+                </select>
+            </div>
+            <div class="item">
+                <p>Seleccionar Material</p>
+                <select>
+                    <option value=""></option>
+                    <option value="1">*Please select*</option>
+                    <option value="2">Sillas</option>
+                    <option value="3">Globos</option>
+                    <option value="4">Titeres</option>
+                    <option value="5">Dj</option>
+                    <option value="5"></option>
+                </select>
+            </div>
+            <div class="item">
+                <p>Asignar recreador</p>
+                <textarea class="message formEntry" placeholder="Asignar recreadores"></textarea>
+            </div>
+            <div class="btn-block">
+                <button type="submit" href="/">Registrar cronograma</button>
+            </div>
+            <div class="btn-block">
+                <button type="submit" href="/">Eliminar cronograma</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
