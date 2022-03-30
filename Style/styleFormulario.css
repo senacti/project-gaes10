@@ -2,7 +2,7 @@ body {
     color: rgb(255, 255, 255);
     overflow-x: hidden;
     height: 100%;
-    background-image: url("/css/imagen\ 1.jpeg");
+    background-image: url("/imagenes/imagenFormulario.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }

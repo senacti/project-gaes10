@@ -29,7 +29,7 @@ p {
   
   a { text-decoration: none; }
   
-  /* Utility Classes */
+  
   .container {
     margin: auto;
     max-width: 1300px;
@@ -91,13 +91,12 @@ p {
     border-radius: 4px;
   }
   
-  /* Navbar */
+  
   #navbar {
     background: #0A0B45;
     color: #fff;
     overflow: auto;
     padding-top: 25px;
-    padding-bottom: 20px;
     height: 12vh;
   }
   
@@ -128,9 +127,9 @@ p {
     text-align: center;
   }
   
-  /* Showcase */
+  
   #showcase {
-    background: linear-gradient(to right, #E000ea, #3b00ee);
+    background: linear-gradient(to right, #ff9812, #eed1a7);
     color: #fff;
     height: 88vh;
     padding-top: 160px;
@@ -148,15 +147,16 @@ p {
   
   .showcase-img {
     float: right;
-    width: 50%;
+    width: 40%;
     padding: 30px;
+
   }
   
   .showcase-img img {
     width: 100%;
   }
   
-  /* Features */
+  
   #features {
     padding: 90px 120px;
   }
@@ -167,12 +167,12 @@ p {
   
   .card {
     float: left;
-    width: 25%;
+    width: 100%;
     text-align: center;
     padding: 20px;
   }
   
-  /* Testimonial */
+  
   #testimonial {
     background: #0a0b45;
     color: #fff;
