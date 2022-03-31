@@ -15,7 +15,7 @@ h1{
     font-size: 2.5rem;
 }
 
-h4{
+h4{ 
     font-size: 1.5rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -47,7 +47,7 @@ p {
   }
   
   .text-yellow {
-    color: #F5B637;
+    color: #f3a60a;
   }
   
   .btn {
@@ -61,8 +61,8 @@ p {
   }
   
   .btn-light {
-    background: #F5B637;
-    color: #FFF;
+    background: #000000;
+    color: rgb(255, 255, 255);
     border: none;
   }
   
@@ -85,7 +85,7 @@ p {
     padding: 7px 12px;
     font-size: 1rem;
     line-height: 1.5;
-    color: #495057;
+    color: #4e565e;
     background-color: #ededed;
     border: 1px solid #ededed;
     border-radius: 4px;
@@ -93,7 +93,7 @@ p {
   
   
   #navbar {
-    background: #0A0B45;
+    background: #040429;
     color: #fff;
     overflow: auto;
     padding-top: 25px;
@@ -153,15 +153,15 @@ p {
   }
   
   .showcase-img img {
-    width: 100%;
+    width: 110%;
   }
   
   
-  #features {
+  #eventos {
     padding: 90px 120px;
   }
   
-  .features-card {
+  .eventos-card {
     padding-top: 70px;
   }
   
@@ -173,36 +173,34 @@ p {
   }
   
   
-  #testimonial {
-    background: #0a0b45;
+  #Foster {
+    background: #02020d;
     color: #fff;
     padding: 90px 120px;
     text-align: center;
   }
   
-  #testimonial h4 {
+  #Foster h4 {
     padding-bottom: 50px;
   }
   
-  #testimonial p {
+  #Foster p {
     width: 70%;
     margin: 0 auto;
   }
   
-  /* Contact */
-  #contact {
+  #DatosPersonales {
     padding: 90px 120px;
   }
   
-  #contact form {
+  #DatosPersonales form {
     padding-top: 90px;
     width: 70%;
     margin: 0 auto;
   }
   
-  /* Footer */
   #mainfooter {
-    background: #0a0b45;
+    background: #df820a;
     text-align: center;
     padding: 30px;
   }
