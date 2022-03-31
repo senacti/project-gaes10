@@ -3,7 +3,7 @@ body {
 	background: #f5f5f5;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 13px;
-	background: url(/css/admin.webp);
+	background: url(/imagenes/admin.webp);
 }
 .table-responsive {
     margin: 30px 0;
@@ -140,7 +140,7 @@ table.table .avatar {
 	margin-top: 10px;
 	font-size: 13px;
 }    
-/* Custom checkbox */
+
 .custom-checkbox {
 	position: relative;
 }
@@ -191,7 +191,7 @@ table.table .avatar {
 	box-shadow: none;
 	background: #ddd;
 }
-/* Modal styles */
+
 .modal .modal-dialog {
 	max-width: 400px;
 }
