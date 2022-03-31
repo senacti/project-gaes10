@@ -85,7 +85,7 @@ p {
     padding: 7px 12px;
     font-size: 1rem;
     line-height: 1.5;
-    color: #4e565e;
+    color: #9c9e9f;
     background-color: #ededed;
     border: 1px solid #ededed;
     border-radius: 4px;
@@ -129,8 +129,8 @@ p {
   
   
   #showcase {
-    background: linear-gradient(to right, #ff9812, #eed1a7);
-    color: #fff;
+    background: linear-gradient(to right, #ff9812, #dbc4a2);
+    color: rgb(251, 246, 246);
     height: 88vh;
     padding-top: 160px;
   }
@@ -167,7 +167,7 @@ p {
   
   .card {
     float: left;
-    width: 100%;
+    width: 90%;
     text-align: center;
     padding: 20px;
   }
