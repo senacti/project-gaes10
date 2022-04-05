@@ -3,13 +3,13 @@ body {
 	background: #f5f5f5;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 13px;
-	background: url(/imagenes/fondoAdmin.jpg);
+	background: linear-gradient(#c2c5cc, #f88d28);
 }
 .table-responsive {
     margin: 30px 0;
 }
 .table-wrapper {
-	background: rgba(211, 157, 41, 0.356);
+	background: rgba(186, 146, 59, 0.356);
 	padding: 20px 25px;
 	border-radius: 3px;
 	min-width: 1000px;
@@ -18,7 +18,7 @@ body {
 }
 .table-title {        
 	padding-bottom: 15px;
-	background: #af4d0c;
+	background: #ff990b;
 	color: #fff;
 	padding: 16px 30px;
 	min-width: 100%;
@@ -351,6 +351,6 @@ table.table .avatar {
 	}
 }
 .logo{
-	width: 190px;
+	width: 120px;
 
 }

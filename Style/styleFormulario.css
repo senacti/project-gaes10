@@ -1,10 +1,11 @@
 body {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     overflow-x: hidden;
     height: 100%;
-    background-image: url("/imagenes/imagenFormulario.jpeg");
+    background-image: url();
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background: linear-gradient(#c2c5cc, #f88d28)
 }
 
 .card {
@@ -66,4 +67,34 @@ button:focus {
 }
 h1{
     color: #ffffff;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #f07a03;
+}
+.titulo{
+    color: black;
 }
