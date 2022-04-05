@@ -47,7 +47,7 @@ p {
   }
   
   .text-yellow {
-    color: #f3a60a;
+    color: #ffa600;
   }
   
   .btn {
@@ -150,10 +150,12 @@ p {
     width: 40%;
     padding: 30px;
 
+
   }
   
   .showcase-img img {
     width: 110%;
+    border-radius: 7px;
   }
   
   
