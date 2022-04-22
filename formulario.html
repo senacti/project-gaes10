@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,13 +12,28 @@
     <link rel="stylesheet" href="/Style/styleFormulario.css">
     <title>Formulario</title>
 </head>
+
 <body>
-    <ul>
-        <li><a class="active" href="/index.html">Inicio</a></li>
-        <li><a href="/login.html">Iniciar Sesión</a></li>
-        <li><a href="/formulario.html">Solicitar Evento</a></li>
-        <li><a href="/Contratación.html">¿Quieres ser recreador En nuestra Empresa?</a></li>
-    </ul>
+    <header>
+        <ul>
+            <li><a class="active" href="/index.html">Inicio</a></li>
+            <li><a href="/login.html">Iniciar Sesión</a></li>
+            <li><a href="/formulario.html">Solicitar Evento</a></li>
+            <li><a href="/Contratación.html">¿Quieres ser recreador En nuestra Empresa?</a></li>
+        </ul>
+        <section class="texto-header">
+            <h1> Solicita tu Servicio en Forter Eventos y Recreación </h1>
+            <h2>Tu mejor opcion es Foster Eventos y recreación</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill:#ede7e7f6 "></path>
+        </svg></div>
+
+        
+    </header>
+
 
     <div class="container-fluid px-1 py-5 mx-auto">
         <div class="row d-flex justify-content-center">
@@ -27,39 +43,81 @@
                     <h5 class="text-center mb-4">Ingrese sus datos</h5>
                     <form class="form-card" onsubmit="event.preventDefault()">
                         <div class="row justify-content-between text-left">
-                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Nombres<span class="text-danger"> *</span></label> <input type="text" id="nombres" name="nombres" placeholder="Ingrese nombres" onblur="validate(1)"> </div>
-                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Apellidos<span class="text-danger"> *</span></label> <input type="text" id="apellidos" name="apellidos" placeholder="Ingrese apellidos" onblur="validate(2)"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                    class="form-control-label px-3">Nombres<span class="text-danger"> *</span></label>
+                                <input type="text" id="nombres" name="nombres" placeholder="Ingrese nombres"
+                                    onblur="validate(1)"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                    class="form-control-label px-3">Apellidos<span class="text-danger"> *</span></label>
+                                <input type="text" id="apellidos" name="apellidos" placeholder="Ingrese apellidos"
+                                    onblur="validate(2)"> </div>
                         </div>
                         <div class="row justify-content-between text-left">
-                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Ingrese su email<span class="text-danger"> *</span></label> <input type="text" id="email" name="email" placeholder="Ingrese su email" onblur="validate(3)"> </div>
-                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Numero de celular<span class="text-danger"> *</span></label> <input type="text" id="celular" name="celular" placeholder="Ingrese su celular" onblur="validate(4)"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                    class="form-control-label px-3">Ingrese su email<span class="text-danger">
+                                        *</span></label> <input type="text" id="email" name="email"
+                                    placeholder="Ingrese su email" onblur="validate(3)"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                    class="form-control-label px-3">Numero de celular<span class="text-danger">
+                                        *</span></label> <input type="text" id="celular" name="celular"
+                                    placeholder="Ingrese su celular" onblur="validate(4)"> </div>
                         </div>
                         <div class="row justify-content-between text-left">
-                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Cedula<span class="text-danger"> *</span></label> <input type="text" id="cedula" name="cedula" placeholder="Numero de cedula" onblur="validate(5)"> </div>
-                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Fecha de servicio<span class="text-danger"> *</span></label> <input type="date" id="Fecha" name="Fecha"  onblur="validate(7)"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                    class="form-control-label px-3">Cedula<span class="text-danger"> *</span></label>
+                                <input type="text" id="cedula" name="cedula" placeholder="Numero de cedula"
+                                    onblur="validate(5)"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                    class="form-control-label px-3">Fecha de servicio<span class="text-danger">
+                                        *</span></label> <input type="date" id="Fecha" name="Fecha"
+                                    onblur="validate(7)"> </div>
                         </div>
                         <div class="row justify-content-between text-left">
-                             <div class="form-group col-sm-6 flex-column d-flex"><label class="form-control-label px-3" for="ciudad"> Promociones de servicio<span class="text-danger"> *</span></label>
-                            <select name="ciudad" id="ciudad">
-                                <option value="">--Servicios oferta--</option>
-                                <option value="Barranquilla">servicio 1</option>
-                                <option value="cartagena">servicio 2</option>
-                                <option value="bogota">servicio 3</option>
-                                <option value="cincelejo">Ninguno</option>
-                            </select>
+                            <div class="form-group col-sm-6 flex-column d-flex"><label class="form-control-label px-3"
+                                    for="ciudad"> Promociones de servicio<span class="text-danger"> *</span></label>
+                                <select name="ciudad" id="ciudad">
+                                    <option value="">--Servicios oferta--</option>
+                                    <option value="Barranquilla">servicio 1</option>
+                                    <option value="cartagena">servicio 2</option>
+                                    <option value="bogota">servicio 3</option>
+                                    <option value="cincelejo">Ninguno</option>
+                                </select>
                             </div>
                         </div>
                         <div class="row justify-content-between text-left">
-                            <label class="col-sm-10 flex-column d-flex" for="descripcion">Descripcion del servicio</label>
-                            <textarea  name="descripcion" id="descripcion" cols="80" rows="1"></textarea>
+                            <label class="col-sm-10 flex-column d-flex" for="descripcion">Descripcion del
+                                servicio</label>
+                            <textarea name="descripcion" id="descripcion" cols="80" rows="1"></textarea>
                         </div>
                         <div class="row justify-content-center text-center">
-                            <div class="form-group col-sm-8"> <button type="submit" class="btn-block btn-dark">Enviar</button> </div>
+                            <div class="form-group col-sm-8"> <button type="submit"
+                                    class="btn-block btn-dark">Enviar</button> </div>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <section id="Foster">
+
+        <div class="container">
+
+            <h4>Foster Eventos y Recreacion</h4>
+
+            <p>Somos una empresa seria innovadora dedicada al entretenimiento familiar y colectivo de una manera sana y
+                divertida, brindando diversos servicios con la calidad y respeto que nuestros clientes merecen, pensando
+                siempre
+                en nuestro país y nuestra comunidad brindando una forma de empleo a los jóvenes y diversas personas que
+                nos
+                rodean como Djs, animadores, fotógrafos , decoradores , pasteleros , mariachis etc. (SI TIENES ALGÚN
+                TALENTO U
+                ORGANIZACIÓN QUE CREES QUE NOS PUEDA SERVIR SOLO CONTÁCTANOS).</p>
+
+            <p class="large text-yellow">Oscar Maecha</p>
+            <p>Telefono 312-5372204</p>
+
+        </div>
+    </section>
 </body>
+
 </html>
