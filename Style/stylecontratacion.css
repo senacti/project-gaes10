@@ -47,7 +47,7 @@ p {
   }
   
   .text-yellow {
-    color: #ffa600;
+    color: #fa8507;
   }
   
   .btn {
@@ -129,10 +129,10 @@ p {
   
   
   #showcase {
-    background: linear-gradient(to right, #ff9812, #dbc4a2);
+    background: linear-gradient(to right, #f88603, #eabd78);
     color: rgb(251, 246, 246);
     height: 88vh;
-    padding-top: 160px;
+    padding-top: 120px;
   }
   
   .showcase-title {
@@ -147,8 +147,8 @@ p {
   
   .showcase-img {
     float: right;
-    width: 40%;
-    padding: 30px;
+    width: 30%;
+    padding: 40px;
 
 
   }
@@ -172,7 +172,7 @@ p {
     width: 90%;
     text-align: center;
     padding: 20px;
-  
+    border-radius: 9px;
   }
   
   
