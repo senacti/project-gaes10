@@ -34,13 +34,13 @@
     <section class="Formulario">
         <b><h4>Programación</h4></b>
         <b><p>Ingrese Fecha del Evento</p></b>
-        <input class="Registro" type="date" name="Fecha" id="Fecha">
+        <input class="Registro" type="date" name="Fecha" id="Fecha" required>
         <b><p>Ingrese hora del Evento</p></b>
-        <input class="Registro" type="time" name="Hora" id="Hora">
+        <input class="Registro" type="time" name="Hora" id="Hora" required>
         <b><p>Ingrese lugar del Evento</p></b>
-        <input class="Registro" type="text" name="texto" id="texto" placeholder="Lugar del evento">
+        <input class="Registro" type="text" name="texto" id="texto" placeholder="Lugar del evento" required>
         <b><p>Tipo de Evento</p></b>
-        <select class="select" name="Seleccionar" id="Seleccionar">
+        <select class="select" name="Seleccionar" id="Seleccionar" required>
             <option value="seleccionar"> Seleccionar </option>
             <option value="opcion1"> Evento1 </option>
             <option value="opcion2"> Evento2 </option>
@@ -49,12 +49,12 @@
             <option value="opcion5"> Evento5 </option>
         </select>
         <b><p>Material requerido para el Evento</p></b>
-        <textarea class="box" name="textarea" rows="10" cols="25" placeholder="Ingrese material Requerido"></textarea>
+        <textarea class="box" name="textarea" rows="10" cols="25" placeholder="Ingrese material Requerido" required ></textarea>
         <b><p>Asignar Recreador</p></b>
         <textarea class="box" name="textarea" rows="10" cols="25"
             placeholder="Escriba Nombre de recreadores"></textarea>
-        <input class="boton" type="submit" value="Registrar">
-        <input class="boton" type="reset" value="Eliminar">
+         <a href="/Error404.html"><input class="boton" type="button" value="Registrar"></a>
+        <a href="/Error404.html"><input class="boton" type="reset" value="Eliminar"></a>
 
     </section>
     <footer class="footer" id="foster" >
