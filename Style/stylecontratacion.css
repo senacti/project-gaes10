@@ -147,14 +147,14 @@ p {
   
   .showcase-img {
     float: right;
-    width: 30%;
-    padding: 40px;
+    width: 40%;
+    padding: 20px;
 
 
   }
   
   .showcase-img img {
-    width: 110%;
+    width: 100%;
     border-radius: 9px;
   }
   
@@ -170,9 +170,13 @@ p {
   .card {
     float: left;
     width: 90%;
+    border-radius: 9px;
     text-align: center;
     padding: 20px;
-    border-radius: 9px;
+  }
+
+  .imagen{
+    border-radius: 20px;
   }
   
   
@@ -203,7 +207,7 @@ p {
   }
   
   #mainfooter {
-    background: #df820a;
+    background: #131312;
     text-align: center;
     padding: 30px;
   }
@@ -232,5 +236,5 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #f07a03;
+    background-color: #151515;
 }
