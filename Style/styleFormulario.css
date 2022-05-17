@@ -12,7 +12,7 @@ body {
     padding: 30px 40px;
     margin-top: 60px;
     margin-bottom: 60px;
-    border: none !important;
+    border: none ;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
 }
@@ -29,19 +29,19 @@ input,
 textarea,
 button {
     padding: 8px 15px;
-    border-radius: 5px !important;
+    border-radius: 5px ;
     margin: 5px 0px;
     box-sizing: border-box;
     border: 1px solid #ccc;
-    font-size: 18px !important;
+    font-size: 18px ;
     font-weight: 300
 }
 
 input:focus,
 textarea:focus {
-    -moz-box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
+    -moz-box-shadow: none ;
+    -webkit-box-shadow: none ;
+    box-shadow: none ;
     border: 1px solid #000000;
     outline-width: 0;
     font-weight: 400
