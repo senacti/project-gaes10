@@ -108,6 +108,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 li {
@@ -119,6 +120,7 @@ li a {
     color: white;
     text-align: center;
     padding: 30px 16px;
+    line-height: 30px;
     text-decoration: none;
 }
 
@@ -158,4 +160,17 @@ li a:hover:not(.active) {
   .text-yellow {
     color: #f3a60a;
   }
+
+  .section{
+      height: calc(100vh - 100px);
+  }
+  @media(max-whith:952px){
+
+  }
+      
+  
+
+
+
+
   
