@@ -5,7 +5,7 @@ html {
     margin:0;
     padding:0;
     font-family: sans-serif;
-    background: linear-gradient(#c2c5cc, #f88d28);
+    background-image: linear-gradient(to right bottom, #ff9c00, #fca72e, #f8b149, #f5ba61, #f2c379, #e2ba7c, #d3b27f, #c3a982, #a38e72, #837563, #645c53, #464544);
   }
   
   .login-box {
@@ -19,6 +19,7 @@ html {
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
+    background-color: #0000001f;
   }
   
   .login-box h2 {
