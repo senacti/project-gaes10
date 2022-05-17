@@ -5,63 +5,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario de Programación</title>
     <link rel="stylesheet" href="/Style/programacion.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
 </head>
 
 <body>
+    <header>
+        <ul>
+            <li><a class="active" href="/index.html">Inicio</a></li>
+            <li><a href="/login.html">Iniciar Sesión</a></li>
+            <li><a href="/formulario.html">Solicitar Evento</a></li>
+            <li><a href="/Contratación.html">¿Quieres ser recreador En nuestra Empresa?</a></li>
+        </ul>
+        <section class="texto-header">
+            <h1> Programa el Evento que deseas realizar </h1>
+            <h2>Tu mejor opcion es Foster Eventos y recreación</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill:#ede7e7f6 "></path>
+            </svg></div>
 
-    <div class="testbox">
-        <form action="/">
-            <div class="banner">
-                <h1>Programa el servicio</h1>
-            </div>
-             <div class="testbox"><h2>Ingresa los datos para programar el Servicio</h2></div>
-            <div class="item">
-                <p>Ingresa la fecha</p>
-                <input type="date" name="bdate" />
-                <i class="fas fa-calendar-alt"></i>
-            </div>
-            <div class="item">
-                <p>Ingresar hora</p>
-                <input type="time" name="name" />
-                <i class="fas fa-clock"></i>
-            </div>
-            <div class="item">
-                <p>Ingresar lugar</p>
-                <input type="text" name="name" />
-            </div>
-            <div class="item">
-                <p>Tipo de Evento</p>
-                <select>
-                    <option value=""></option>
-                    <option value="1">--Seleccione Tipo de evento--</option>
-                    <option value="2">Cumpleaños</option>
-                    <option value="3">Boda</option>
-                    <option value="4">Baby Shower</option>
-                    <option value="5">Fiesteas Tematicas</option>
-                </select>
-            </div>
-            <div class="item">
-                <p>Escriba el material requerido para el evento</p>
-                <textarea class="message formEntry" placeholder="Material requerido"></textarea>
-               
-            </div>
-            <div class="item">
-                <p>Asignar recreador</p>
-                <textarea class="message formEntry" placeholder="Asignar recreadores"></textarea>
-            </div>
-            <div class="btn-block">
-                <button type="submit" href="/">Registrar cronograma</button>
-            </div>
-            <div class="btn-block">
-                <button type="submit" href="/">Eliminar cronograma</button>
-            </div>
-        </form>
-    </div>
+    </header>
+
+    <h1 class="Titulo">Formulario de programación de Eventos</h1>
+    <section class="Formulario">
+        <b><h4>Programación</h4></b>
+        <b><p>Ingrese Fecha del Evento</p></b>
+        <input class="Registro" type="date" name="Fecha" id="Fecha">
+        <b><p>Ingrese hora del Evento</p></b>
+        <input class="Registro" type="time" name="Hora" id="Hora">
+        <b><p>Ingrese lugar del Evento</p></b>
+        <input class="Registro" type="text" name="texto" id="texto" placeholder="Lugar del evento">
+        <b><p>Tipo de Evento</p></b>
+        <select class="select" name="Seleccionar" id="Seleccionar">
+            <option value="seleccionar"> Seleccionar </option>
+            <option value="opcion1"> Evento1 </option>
+            <option value="opcion2"> Evento2 </option>
+            <option value="opcion3"> Evento3 </option>
+            <option value="opcion4"> Evento4 </option>
+            <option value="opcion5"> Evento5 </option>
+        </select>
+        <b><p>Material requerido para el Evento</p></b>
+        <textarea class="box" name="textarea" rows="10" cols="30" placeholder="Ingrese material Requerido"></textarea>
+        <b><p>Asignar Recreador</p></b>
+        <textarea class="box" name="textarea" rows="10" cols="30"
+            placeholder="Escriba Nombre de recreadores"></textarea>
+        <input class="boton" type="submit" value="Registrar">
+        <input class="boton" type="reset" value="Eliminar">
+
+    </section>
+    <footer class="footer" id="foster" >
+        <div >
+    
+            <h2 class="h4" >Foster Eventos y Recreacion</h2>
+
+            <p class="p1">Somos una empresa seria innovadora dedicada al entretenimiento familiar y colectivo de una manera sana y
+                divertida, brindando diversos servicios con la calidad y respeto que nuestros clientes merecen, pensando
+                siempre
+                en nuestro país y nuestra comunidad brindando una forma de empleo a los jóvenes y diversas personas que
+                nos
+                rodean como Djs, animadores, fotógrafos , decoradores , pasteleros , mariachis etc. (SI TIENES ALGÚN
+                TALENTO U
+                ORGANIZACIÓN QUE CREES QUE NOS PUEDA SERVIR SOLO CONTÁCTANOS).</p>
+
+            <p class="inform">Oscar Maecha</p>
+            <p class="inform">Telefono 312-5372204</p>
+
+        </div>
+    </footer>
+    
 </body>
-
-</html>
