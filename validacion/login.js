@@ -1,0 +1,5 @@
+function validacion(){
+
+    var usuario = 
+
+}

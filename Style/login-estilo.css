@@ -192,4 +192,7 @@ li a:hover:not(.active) {
 .active {
     background-color: #f07a03;
 }
-  
+#rol{
+  padding: 5px 10px;
+  border-radius: 4px;
+}
