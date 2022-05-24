@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <link rel="stylesheet" href="/Style/login-estilo.css">
+    <script src="/validacion/login.js"></script>
 </head>
 <body>
   <ul>
@@ -28,12 +29,12 @@
           </div>
           <div>
             <select name="rol" id="rol">
-              <option value="selec">--selecione--</option>
+              <option value="">--Selecion Rol</option>
               <option value="Coordinador">Coordinador</option>
               <option value="Recreador">recreador</option>
             </select>
           </div>
-          <a href="#" onclick="validacion()" >
+          <a id="buton" href="" onclick="validacion()" >
             <span></span>
             <span></span>
             <span></span>
