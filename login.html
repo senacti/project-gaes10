@@ -18,7 +18,7 @@
 
     <div class="login-box">
         <h2>Iniciar Sesión</h2>
-        <form>
+        <form method="post">
           <div class="user-box">
             <input type="text" name="usuario" id="usuario">
             <label>Usuario</label>
@@ -34,7 +34,8 @@
               <option value="Recreador">recreador</option>
             </select>
           </div>
-          <a id="buton" href="" onclick="validacion()" >
+          <input type="button" value="Entrar" id="submit" onclick="validacion()">
+          
             <span></span>
             <span></span>
             <span></span>
