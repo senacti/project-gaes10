@@ -1,4 +1,5 @@
 var attempt = 3;
+
 function validacion() {
   var usuario = document.getElementById("usuario").value;
   var password = document.getElementById("password").value;
@@ -12,7 +13,7 @@ function validacion() {
 
   if (usuario == "sebastian" && password == "123" && rol == "Coordinador") {
     alert("INGRESO EXITOSO");
-    window.location = "admin.html"
+    window.location = "admin.html";
     return false;
   } else {
     attempt--;
