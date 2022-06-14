@@ -1,10 +1,12 @@
 const formulario = document.getElementById('form');
-const inputs = document.querySelectorAll('nombre');
-const inputs = document.querySelectorAll('nombre');
-const inputs = document.querySelectorAll('nombre');
-const inputs = document.querySelectorAll('nombre');
-
-
+const nombre = document.querySelectorAll('nombre');
+const apellido = document.querySelectorAll('nombre');
+const usuario = document.querySelectorAll('nombre');
+const contraseña = document.querySelectorAll('nombre');
+const confirmar = document.querySelectorAll('nombre');
+const telefono = document.querySelectorAll('nombre');
+const email = document.querySelectorAll('nombre');
+const genero = document.querySelectorAll('nombre');
 
 const expresiones = {
 	usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
