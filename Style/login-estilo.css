@@ -1,15 +1,16 @@
-
-body {
+*{
   margin: 0;
-  padding: 0 0  ;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+ 
   font-family: sans-serif;
-  background: rgb(253, 253, 253)
-  
-  
+  background: rgb(253, 253, 253) 
 }
 
 .login-box {
-  margin: 450px 610px;
+  margin: 300px 610px;
   width: 400px;
   padding: 60px;
   transform: translate(-50%, -50%);
@@ -72,12 +73,6 @@ body {
   transition: 0.5s;
   margin-top: 40px;
   letter-spacing: 4px;
-}
-
-
-.login-box a span {
-  position: absolute;
-  display: block;
 }
 
 .login-box a span:nth-child(1) {
@@ -160,7 +155,7 @@ li a:hover:not(.active) {
   color: orange;
   font-size: 30px;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 header {
   width: 100%;
@@ -219,11 +214,10 @@ header .texto-header {
   width: 100%;
 }
 .footer {
-  max-width: 1000%;
-  padding: 50px 50px;
-  max-height: 500%;
+  max-width: 2000%;
+  padding: 0px 30px;
+  max-height: 2000px;
   background: #000000;
- 
 }
 .h4 {
   color: #fff;
@@ -232,10 +226,10 @@ header .texto-header {
 }
 .p1 {
   color: #fff;
-  padding: 15px 30px;
+  padding: 20px 30px;
   text-align: center;
   width: 70%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .inform {
@@ -278,8 +272,8 @@ header .texto-header {
 
 .Titulo {
   text-align: center;
-  padding: 10px;
-  line-height: 10px;
+  padding: 100px;
+  line-height: 20px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 35px;
 }
