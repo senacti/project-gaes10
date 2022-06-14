@@ -5,6 +5,7 @@
 }
 body {
   background: rgb(253, 253, 253);
+  height: 1000px;
 }
 .Titulo {
   text-align: center;
@@ -65,7 +66,7 @@ body {
   text-align: center;
 }
 button {
-  background-color: #7a7a7a;
+  background-color: #c5c5c5;
   border: none;
   color: rgb(0, 0, 0);
   padding: 8px;
@@ -73,7 +74,7 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 1 15px;
+  margin: 20 25px;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;

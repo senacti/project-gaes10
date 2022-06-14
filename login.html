@@ -1,23 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-    <link rel="stylesheet" href="/Style/login-estilo.css">
-    <script src="/validacion/login.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <link rel="stylesheet" href="/Style/login-estilo.css">
+  <script src="/validacion/login.js"></script>
 </head>
+
 <body>
-  <ul>
-    <li><a class="active" href="/index.html">Inicio</a></li>
-    <li><a href="/login.html">Iniciar Sesión</a></li>
-    <li><a href="/formulario.html">Solicitar Evento</a></li>
-    <li><a href="/programacion.html">Programación</a></li>
-    <li><a href="/Contratación.html">¿Quieres ser recreador En nuestra Empresa?</a></li>
-</ul>
+  <header class="menu">
+    <ul>
+      <li><a class="active" href="/index.html">Inicio</a></li>
+      <li><a href="/login.html">Iniciar Sesión</a></li>
+      <li><a href="/formulario.html">Solicitar Evento</a></li>
+      <li><a href="/programacion.html">Programación</a></li>
+      <li><a href="/Contratación.html">¿Quieres ser recreador En nuestra Empresa?</a></li>
+    </ul>
 
 
+<<<<<<< HEAD
+    <section class="texto-header">
+      <h1> Inicia Sesión </h1>
+      <h2> Puedes iniciar Sesión o crear una cuenta Aquí </h2>
+    </section>
+    <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+        style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: rgb(253, 253, 253);"></path>
+      </svg></div>
+  </header>
+
+  <h2 class="Titulo"> Ingresa tu Cuenta </h2>
+
+  <div class="login-box">
+    <h2>Iniciar Sesión</h2>
+    <form class="Formulario">
+      <div class="user-box">
+        <input type="text" name="usuario" id="usuario">
+        <label>Usuario</label>
+=======
     <div class="login-box">
         <h2>Iniciar Sesión</h2>
         <form method="post">
@@ -45,7 +69,56 @@
             Entrar 
           </a>
         </form>
+>>>>>>> 8b9e43e13e93da1accf61e3a093eebec3e95b515
       </div>
- 
+      <div class="user-box">
+        <input type="password" name="password" id="password">
+        <label>contraseña</label>
+      </div>
+
+      <div class="user-box">
+
+        <p> Selecciona tu Rol </p>
+
+        <select class="select" name="rol" id="rol">
+          <option value="opcion">--Selecione Rol--</option>
+          <option value="Coordinador">Coordinador</option>
+          <option value="Recreador">Recreador</option>
+        </select>
+      </div>
+
+      <a href=""><input class=" botonini" type="button" name="boton" id="boton" value="Entrar" readonly></a>
+
+      <a href=""> <input class="botonini " type="button" name="boton" id="boton" value="Crear Cuenta" readonly> </a>
+
+    </form>
+  </div>
+
+  <footer class="footer" id="foster">
+    <div>
+
+      <h2 class="h4">Foster Eventos y Recreación</h2>
+
+      <p class="p1">Somos una empresa seria innovadora dedicada al entretenimiento familiar y colectivo de una
+        manera sana y
+        divertida, brindando diversos servicios con la calidad y respeto que nuestros clientes merecen, pensando
+        siempre
+        en nuestro país y nuestra comunidad brindando una forma de empleo a los jóvenes y diversas personas que
+        nos
+        rodean como Djs, animadores, fotógrafos , decoradores , pasteleros , mariachis etc. (SI TIENES ALGÚN
+        TALENTO U
+        ORGANIZACIÓN QUE CREES QUE NOS PUEDA SERVIR SOLO CONTÁCTANOS).</p>
+
+      <p class="inform">Oscar Maecha</p>
+      <p class="inform">Telefono 312-5372204</p>
+
+    </div>
+  </footer>
+
+
+
+
+
 </body>
+
 </html>
