@@ -58,7 +58,7 @@ html {
   .login-box .user-box input:valid ~ label {
     top: -20px;
     left: 0;
-    color: #ffa024;
+    color: #000000;
     font-size: 12px;
   }
   
@@ -195,4 +195,18 @@ li a:hover:not(.active) {
 #rol{
   padding: 5px 10px;
   border-radius: 4px;
+}
+.texto-header h1 {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+.texto-header h2 {
+  font-size: 30px;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+}
+.wave{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
