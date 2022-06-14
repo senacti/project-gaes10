@@ -1,5 +1,8 @@
-const formulario = document.getElementById('formulario');
-const inputs = document.querySelectorAll('#formulario');
+const formulario = document.getElementById('form');
+const inputs = document.querySelectorAll('nombre');
+const inputs = document.querySelectorAll('nombre');
+const inputs = document.querySelectorAll('nombre');
+const inputs = document.querySelectorAll('nombre');
 
 
 
