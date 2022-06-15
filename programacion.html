@@ -10,7 +10,9 @@
 
 </head>
 
-<body>
+<body class="img">
+
+   
     <header>
         <ul>
             <li><a class="active" href="/index.html">Inicio</a></li>
@@ -26,12 +28,13 @@
         <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
                 style="height: 100%; width: 100%;">
                 <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill:#ede7e7f6 "></path>
+                    style="stroke: none; fill:rgb(231, 231, 231);"></path>
             </svg></div>
 
     </header>
 
     <h1 class="Titulo">Formulario de programación de Eventos</h1>
+    
     <section class="Formulario">
         <b>
             <h4>Programación</h4>
@@ -47,11 +50,11 @@
         <b>
             <p>Ingrese lugar del Evento</p>
         </b>
-        <input class="Registro" type="text" name="texto" id="texto" placeholder="Lugar del evento" required>
+        <input class="Registro" type="text" name="lugar" id="lugar" placeholder="Lugar del evento" required>
         <b>
             <p>Tipo de Evento</p>
         </b>
-        <select class="select" name="Seleccionar" id="Seleccionar" required>
+        <select class="select" name="seleccion" id="Seleccion" required>
             <option value="seleccionar"> Seleccionar </option>
             <option value="opcion1"> Evento1 </option>
             <option value="opcion2"> Evento2 </option>
@@ -69,10 +72,11 @@
         </b>
         <textarea class="box" name="textarea" rows="10" cols="25"
             placeholder="Escriba Nombre de recreadores"></textarea>
-        <a href="/Error404.html"><input class="boton" type="button" value="Registrar"></a>
+        <a href=""><input class="boton" type="submit" value="Registrar" ></a>
         <a href="/Error404.html"><input class="boton" type="reset" value="Eliminar"></a>
 
     </section>
+    <div class="Error"  id="Error"></div>
     <footer class="footer" id="foster">
         <div>
 
@@ -92,6 +96,8 @@
             <p class="inform">Telefono 312-5372204</p>
 
         </div>
+
+        <script src="/validacion/programacion.js" ></script>
     </footer>
 
 </body>
