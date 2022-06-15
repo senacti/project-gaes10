@@ -10,12 +10,15 @@
 
 </head>
 
-<body>
+<body class="img">
+
+   
     <header>
         <ul>
             <li><a class="active" href="/index.html">Inicio</a></li>
             <li><a href="/login.html">Iniciar Sesión</a></li>
             <li><a href="/formulario.html">Solicitar Evento</a></li>
+            <li><a href="/programacion.html">Programación</a></li>
             <li><a href="/Contratación.html">¿Quieres ser recreador En nuestra Empresa?</a></li>
         </ul>
         <section class="texto-header">
@@ -25,22 +28,33 @@
         <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
                 style="height: 100%; width: 100%;">
                 <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill:#ede7e7f6 "></path>
+                    style="stroke: none; fill:rgb(231, 231, 231);"></path>
             </svg></div>
 
     </header>
 
     <h1 class="Titulo">Formulario de programación de Eventos</h1>
+    
     <section class="Formulario">
-        <b><h4>Programación</h4></b>
-        <b><p>Ingrese Fecha del Evento</p></b>
-        <input class="Registro" type="date" name="Fecha" id="Fecha">
-        <b><p>Ingrese hora del Evento</p></b>
-        <input class="Registro" type="time" name="Hora" id="Hora">
-        <b><p>Ingrese lugar del Evento</p></b>
-        <input class="Registro" type="text" name="texto" id="texto" placeholder="Lugar del evento">
-        <b><p>Tipo de Evento</p></b>
-        <select class="select" name="Seleccionar" id="Seleccionar">
+        <b>
+            <h4>Programación</h4>
+        </b>
+        <b>
+            <p>Ingrese Fecha del Evento</p>
+        </b>
+        <input class="Registro" type="date" name="Fecha" id="Fecha" required>
+        <b>
+            <p>Ingrese hora del Evento</p>
+        </b>
+        <input class="Registro" type="time" name="Hora" id="Hora" required>
+        <b>
+            <p>Ingrese lugar del Evento</p>
+        </b>
+        <input class="Registro" type="text" name="lugar" id="lugar" placeholder="Lugar del evento" required>
+        <b>
+            <p>Tipo de Evento</p>
+        </b>
+        <select class="select" name="seleccion" id="Seleccion" required>
             <option value="seleccionar"> Seleccionar </option>
             <option value="opcion1"> Evento1 </option>
             <option value="opcion2"> Evento2 </option>
@@ -48,21 +62,28 @@
             <option value="opcion4"> Evento4 </option>
             <option value="opcion5"> Evento5 </option>
         </select>
-        <b><p>Material requerido para el Evento</p></b>
-        <textarea class="box" name="textarea" rows="10" cols="25" placeholder="Ingrese material Requerido"></textarea>
-        <b><p>Asignar Recreador</p></b>
+        <b>
+            <p>Material requerido para el Evento</p>
+        </b>
+        <textarea class="box" name="textarea" rows="10" cols="25" placeholder="Ingrese material Requerido"
+            required></textarea>
+        <b>
+            <p>Asignar Recreador</p>
+        </b>
         <textarea class="box" name="textarea" rows="10" cols="25"
             placeholder="Escriba Nombre de recreadores"></textarea>
-        <input class="boton" type="submit" value="Registrar">
-        <input class="boton" type="reset" value="Eliminar">
+        <a href=""><input class="boton" type="submit" value="Registrar" ></a>
+        <a href="/Error404.html"><input class="boton" type="reset" value="Eliminar"></a>
 
     </section>
-    <footer class="footer" id="foster" >
-        <div >
-    
-            <h2 class="h4" >Foster Eventos y Recreación</h2>
+    <div class="Error"  id="Error"></div>
+    <footer class="footer" id="foster">
+        <div>
 
-            <p class="p1">Somos una empresa seria innovadora dedicada al entretenimiento familiar y colectivo de una manera sana y
+            <h2 class="h4">Foster Eventos y Recreación</h2>
+
+            <p class="p1">Somos una empresa seria innovadora dedicada al entretenimiento familiar y colectivo de una
+                manera sana y
                 divertida, brindando diversos servicios con la calidad y respeto que nuestros clientes merecen, pensando
                 siempre
                 en nuestro país y nuestra comunidad brindando una forma de empleo a los jóvenes y diversas personas que
@@ -75,6 +96,8 @@
             <p class="inform">Telefono 312-5372204</p>
 
         </div>
+
+        <script src="/validacion/programacion.js" ></script>
     </footer>
-    
+
 </body>
