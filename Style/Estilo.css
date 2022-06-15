@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 .contenedor{
     padding: 60px  0;
     width: 90%;
@@ -167,6 +168,15 @@ li a:hover:not(.active) {
   @media(max-whith:952px){
 
   }
+  .img {
+    background-image: url(/imagenes/fondo\ pagina2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
       
   
 
