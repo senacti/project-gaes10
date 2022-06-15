@@ -7,7 +7,13 @@ body {
   
   
 }
-
+.warnings{
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: #000;
+  padding-top: 20px;
+}
 .login-box {
   margin: 450px 610px;
   width: 400px;

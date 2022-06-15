@@ -1,6 +1,6 @@
 var attempt = 3;
 
-function validacion() {
+function validate() {
   var usuario = document.getElementById("usuario").value;
   var password = document.getElementById("password").value;
   var rol = document.getElementById("rol").value;
