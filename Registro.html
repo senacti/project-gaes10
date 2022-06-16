@@ -10,7 +10,6 @@
 
   <body>
     <header class="menu">
-<<<<<<< HEAD
       <ul>
         <li><a class="active" href="#home">Inicio</a></li>
         <li><a href="/login.html">Iniciar Sesión</a></li>
@@ -22,16 +21,6 @@
           >
         </li>
       </ul>
-=======
-        <ul>
-            <li><a class="active" href="/index.html">Inicio</a></li>
-            <li><a href="/login.html">Iniciar Sesión</a></li>
-            <li><a href="/formulario.html">Solicitar Evento</a></li>
-            <li><a href="/programacion.html">Programación</a></li>
-            <li><a href="/Contratación.html">¿Quieres ser recreador En nuestra Empresa?</a></li>
-        </ul>
->>>>>>> db1c064947b8c527f82fc6f3db7e5a6c46239424
-
       <section class="texto-header">
         <h1>Crea tu cuenta Aquí</h1>
         <h2>Registrate con Nosotros, Siempre tu mejor opción</h2>
@@ -59,15 +48,15 @@
       <b>
         <p>Ingrese su nombre completo</p>
       </b>
-      <input class="Registro" type="text" name="nombre" id="nombre" />
+      <input class="Registro" type="text" name="nombre" id="nombre" required/>
       <b>
         <p>Ingrese sus apellidos</p>
       </b>
-      <input class="Registro" type="text" name="apellido" id="apellido" />
+      <input class="Registro" type="text" name="apellido" id="apellido" required/>
       <b>
         <p>Nombre de usuario</p>
       </b>
-      <input class="Registro" type="text" name="usuario" id="usuario" />
+      <input class="Registro" type="text" name="usuario" id="usuario" required/>
       <b>
         <p>Contraseña</p>
       </b>
@@ -76,11 +65,12 @@
         type="password"
         name="contraseña"
         id="contraseña"
+        required
       />
       <b>
         <p>Confirmar Contraseña</p>
       </b>
-      <input class="Registro" type="password" name="confirmar" id="confirmar" />
+      <input class="Registro" type="password" name="confirmar" id="confirmar" required/>
       <b>
         <p>Numero de Telefono</p>
       </b>
@@ -90,6 +80,7 @@
         name="telefono"
         id="telefono"
         placeholder="Opcional"
+        required
       />
       <b>
         <p>Correo electronico de recuperación</p>
@@ -100,6 +91,7 @@
         name="email"
         id="email"
         placeholder="ejmplo@gmail.com"
+        required
       />
       <b>
         <p>Genero</p>
@@ -115,7 +107,7 @@
       <b>
         <p>Ingrese codigo de Usuario</p>
       </b>
-      <input class="Registro" type="number" name="codigo" id="codigo"/>
+      <input class="Registro" type="number" name="codigo" id="codigo" required/>
 
         <button type="submit" onclick="validar()" id="warnings" class="warnings">Enviar</button>
         <a href=""><button>Cancelar</button></a>
