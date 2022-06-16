@@ -1,30 +1,20 @@
-var attempt = 3;
 
-function validacion() {
-  var usuario = document.getElementById("usuario").value;
-  var password = document.getElementById("password").value;
-  var rol = document.getElementById("rol").value;
+function validate() {
+  const usuario = document.getElementById("usuario").value;
+  const password = document.getElementById("password").value;
+  const rol = document.getElementById("rol").value;
 
-  if (username == "") alert("Por favor, ingresa un nombre");
+  if (usuario == "") alert("Por favor, ingresa un nombre");
 
-  if (password == "") alert("Por favor, ingresa un email");
+  if (password == "") alert("Por favor, ingresar una contraseña");
 
-  if (rol == "") alert("Por favor, ingresa un rol");
+  if (rol == "--Selecione Rol--") alert("Por favor, ingresa un rol");
 
-  if (usuario == "sebastian" && password == "123" && rol == "Coordinador") {
+  if (usuario == "sebastian" && password == "123" && rol == "coordinador") {
     alert("INGRESO EXITOSO");
     window.location = "admin.html";
     return false;
   } else {
-    attempt--;
-    alert("Lo siento le quedan " + attempt + " intentos;");
-
-    if (attempt == 0) {
-      document.getElementById("usuario").desabled = true;
-      document.getElementById("password").desabled = true;
-      document.getElementById("rol").desabled = true;
-      document.getElementById("buton").desabled = true;
-      return false;
-    }
+    alert("Datos incorrectos")
   }
 }
