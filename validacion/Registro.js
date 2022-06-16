@@ -6,5 +6,4 @@ const password = document.getElementById('contraseña');
 const confir = document.getElementById('confirmar');
 const email = document.getElementById('email');
 const genero = document.getElementById('genero');
-const codigo = document.getElementById('codigo');
 
