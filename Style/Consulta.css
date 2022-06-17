@@ -168,3 +168,13 @@ tr:hover td{
     -webkit-transition-duration: 0.1s;
     transition-duration: 0.1s;
   }
+  .img {
+    background-image: url(/imagenes/fondo\ pagina2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+     
