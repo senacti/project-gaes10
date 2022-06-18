@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galdeano&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -28,14 +30,13 @@ body{
 .Formulario{
     width: 500px;
     background: #ffffff;
-    padding: 45px;
     margin: auto;
     margin-top: 100px;
     border-radius: 15px;
     font-family: 'calibri';
     color: rgb(22, 20, 20);
     box-shadow: 7px 13px 37px rgb(0, 0, 0);
-    
+    height: 380px;
 }
 button {
     background-color: #c5c5c5;
@@ -61,7 +62,6 @@ button {
 
   }
   .Formulario h2 {
-    height: 40px;
     text-align: center;
     font-size: 25px;
     line-height: 40px;
@@ -97,7 +97,7 @@ button {
   }
   
   li a:hover:not(.active) {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 145, 0);
   }
   
   .active {
@@ -178,4 +178,31 @@ button {
     text-align: center;
     width: 70%;
     margin: 0 auto;
+  }
+  .panel{
+    width: 250px;
+  }
+  .img2 {
+    margin: 22px 5px;
+    height: 50%;
+    max-width: 200px;
+    max-height: 200px; 
+  }
+  .Registro{
+    margin: -210px 200px;
+  }
+  .Registro-2{
+    margin: 220px 200px;
+  }
+  .Registro-3{
+    margin: -209px 200px;
+  }
+  .caja{
+    padding: 5px 10px;
+    text-align: left;
+  }
+  .recreador{
+    margin: 220px 200px;
+    font-size: 40px;
+    font-family: 'Metal', cursive;
   }
