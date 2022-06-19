@@ -10,11 +10,20 @@ function validate() {
 
   if (rol == "--Selecione Rol--") alert("Por favor, ingresa un rol");
 
-  if (usuario == "sebastian" && password == "123" && rol == "coordinador") {
+  if (usuario == "sebastian75" && password == "1234" && rol == "coordinador") {
     alert("INGRESO EXITOSO");
     window.location = "admin.html";
     return false;
   } else {
-    alert("Datos incorrectos")
+    if (usuario == "paulam20" && password == "1234" && rol == "recreador") {
+      alert("INGRESO EXITOSO");
+      window.location = "PanelEmpleado.html";
+      return false;
+    } else {
+      alert("Datos incorrectos")
+    }
   }
+
+
+
 }

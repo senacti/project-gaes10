@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galdeano&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -123,7 +125,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: rgb(255, 145, 1);
 }
 
 .active {
@@ -333,6 +335,7 @@ border: #000000 solid 0.1px;
 margin-top: -150px;
 height: 280px;
 width: 213px;
+border-radius: 2px;
 }
 .tituloP{
 padding: 5px;
@@ -340,3 +343,18 @@ padding: 5px;
 .contenido{
 padding: 5px;
 }
+  .menuP{
+    font-family: 'Galdeano', sans-serif;
+  }
+  .salir{
+    float: right;
+  }
+  .nombreB{
+    color: white;
+    margin-left: 800px;
+    margin-top: 28px;
+  }
+  .salirT{
+    padding-right: 90px;
+    text-align: center;
+  }

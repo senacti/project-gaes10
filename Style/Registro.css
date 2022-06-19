@@ -29,6 +29,7 @@ body {
 .Formulario h4 {
   font-size: 22px;
   margin-bottom: 20px;
+  text-align: center;
 }
 .Registro {
   width: 100%;
@@ -42,7 +43,6 @@ body {
 }
 .Formulario p {
   height: 40px;
-  text-align: center;
   font-size: 18px;
   line-height: 40px;
 }
@@ -150,7 +150,7 @@ ul {
 }
 
 li {
-  float: left;
+  float: right;
 }
 
 li a {
@@ -179,11 +179,6 @@ li a:hover:not(.active) {
   max-height: 5000%;
   background: #000000;
 }
-.h4 {
-  color: #fff;
-  padding: 15px 30px;
-  text-align: center;
-}
 .p1 {
   color: #fff;
   padding: 50px 100px;
@@ -199,3 +194,22 @@ li a:hover:not(.active) {
   width: 70%;
   margin: 0 auto;
 }
+.salir {
+  float: right;
+}
+.salir a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 30px 16px;
+  line-height: 30px;
+  text-decoration: none;
+  width: 200px;
+}
+.menuP{
+  font-family: 'Galdeano', sans-serif;
+}
+.inicio{
+  float: left;
+}    

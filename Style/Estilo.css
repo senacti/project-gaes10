@@ -1,5 +1,5 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Metal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galdeano&display=swap');
 *{  
     margin: 0;
     padding: 0%;
@@ -111,7 +111,7 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
@@ -124,7 +124,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: rgb(255, 132, 0);
 }
 
 .active {
@@ -175,7 +175,12 @@ li a:hover:not(.active) {
     background-size: cover;
    
 }
-      
+.menuP{
+    font-family: 'Galdeano', sans-serif;
+}
+.inicio{
+    float: left;
+}    
   
 
 

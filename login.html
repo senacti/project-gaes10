@@ -13,7 +13,7 @@
 <body class="img">
   <header class="menu">
     <ul>
-      <li><a class="active" href="/index.html">Inicio</a></li>
+      <li class="inicio"><a class="active" href="/index.html">Inicio</a></li>
       <li><a href="/login.html">Iniciar Sesión</a></li>
       <li><a href="/formulario.html">Solicitar Evento</a></li>
       <li><a href="/programacion.html">Programación</a></li>
@@ -46,17 +46,20 @@
 
       <div class="user-box">
 
-        <p> Selecciona tu Rol </p>
+        <p class="selecR"> Selecciona tu Rol </p>
 
         <select class="select" name="rol" id="rol">
           <option value="opcion">--Selecione Rol--</option>
           <option value="coordinador">Coordinador</option>
-          <option value="Recreador">Recreador</option>
+          <option value="recreador">Recreador</option>
         </select>
       </div>
-      <input type="button" class="botonini " value="Login" id="submit" onclick="validate()"/>
-      <a href="/Registro.html"> <input class="botonini " type="button" name="boton" id="boton" value="Crear Cuenta" readonly> </a>
-
+      <div class="boton1E">
+        <input type="button" class="botonini entrar" value="Login" id="submit" onclick="validate()"/>
+      </div>
+      <div class="boton2E">
+         <input class="botonA entrar" type="button" name="boton" id="boton" value="Crear Cuenta" readonly>
+      </div>
     </form>
   </div>
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galdeano&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -6,7 +8,7 @@
 body {
  
   font-family: sans-serif;
-  background: rgb(253, 253, 253) 
+  background: rgb(222, 205, 205) 
 }
 .warnings{
   width: 200px;
@@ -16,11 +18,11 @@ body {
   padding-top: 20px;
 }
 .login-box {
-  margin: 300px 610px;
+  margin: 300px 658px;
   width: 400px;
   padding: 60px;
   transform: translate(-50%, -50%);
-  background: linear-gradient(#e9e5e5f8 ,#e9e5e5f8 );
+  background: linear-gradient(rgb(240, 230, 230) ,#e2c7b0 );
   box-sizing: border-box;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
@@ -67,65 +69,6 @@ body {
   font-size: 15px;
 }
 
-.login-box form a {
-  position: relative;
-  display: inline-block;
-  padding: 10px 20px;
-  color: #030505;
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  transition: 0.5s;
-  margin-top: 40px;
-  letter-spacing: 4px;
-}
-
-.login-box a span:nth-child(1) {
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #fb8211);
-  animation: btn-anim1 1s linear infinite;
-}
-
-
-
-.login-box a span:nth-child(2) {
-  top: -100%;
-  right: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(180deg, transparent, #f8750a);
-  animation: btn-anim2 1s linear infinite;
-  animation-delay: 0.25s;
-}
-
-
-.login-box a span:nth-child(3) {
-  bottom: 0;
-  right: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(270deg, transparent, #ff8717);
-  animation: btn-anim3 1s linear infinite;
-  animation-delay: 0.5s;
-}
-
-
-
-.login-box a span:nth-child(4) {
-  bottom: -100%;
-  left: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(360deg, transparent, #ff950b);
-  animation: btn-anim4 1s linear infinite;
-  animation-delay: 0.75s;
-}
-
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -135,7 +78,7 @@ ul {
 }
 
 li {
-  float: left;
+  float: right;
 }
 
 li a {
@@ -147,7 +90,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: rgb(255, 132, 0);
 }
 
 .active {
@@ -262,25 +205,36 @@ header .texto-header {
   text-align: center;
 }
 .botonini {
-  background-color: #c5c5c5;
+  background-color: #5f97c27e;
   border: none;
   color: rgb(0, 0, 0);
-  padding: 8px;
-  text-align: center;
+  padding: 8px 127px;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
-  margin: 20 25px;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 4px;
 }
-
+.botonA {
+  background-color: #5f97c28c;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 8px 99px;
+  text-decoration: none;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.entrar:hover{
+  background-color: #f07a03;
+  color: rgb(0, 0, 0);
+}
 .Titulo {
   text-align: center;
-  padding: 100px;
-  line-height: 20px;
+  padding: 10px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 35px;
 }
@@ -293,4 +247,21 @@ header .texto-header {
   background-size: cover;
   
  
+}
+.menuP{
+  font-family: 'Galdeano', sans-serif;
+}
+.inicio{
+  float: left;
+} 
+.boton1E{
+  margin-left: -8px;
+  margin-top: 12px;
+}
+.boton2E{
+  margin-left: -8px;
+  margin-top: 10px;
+}
+.selecR{
+  padding: 2px;
 }

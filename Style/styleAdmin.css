@@ -235,7 +235,6 @@ table.table .avatar {
     overflow: hidden;
     background-color: #333;
 }
-
 .li {
     float: left;
 }
@@ -249,6 +248,7 @@ table.table .avatar {
 }
 .li a:hover:not(.active) {
     background-color: #111;
+	text-decoration: none;
 }
 .active1 {
     background-color: #f07a03;
@@ -267,7 +267,8 @@ table.table .avatar {
 	width: 200px;
 }
 .salir a:hover:not(.active){
-	background-color: #111;
+	background-color: rgb(239, 115, 38);
+	text-decoration: none;
 }
 @media (min-width: 1200px){
 	.form-inline .input-group {
