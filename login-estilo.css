@@ -115,13 +115,13 @@ header {
       hsla(49, 100%, 50%, 0.616),
       hsla(33, 93%, 54%, 0.637)
     ),
-    url(/imagenes/imagen\ portafolio.jpg);
+    url(imagen\ portafolio.jpg);
   background: linear-gradient(
       to right,
       hsla(49, 100%, 50%, 0.616),
       hsla(33, 93%, 54%, 0.637)
     ),
-    url(/imagenes/imagen\ portafolio.jpg);
+    url(imagen\ portafolio.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
