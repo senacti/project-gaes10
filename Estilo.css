@@ -167,7 +167,7 @@ li a:hover:not(.active) {
 
   }
   .img {
-    background-image: url(/imagenes/fondo\ pagina2.jpg);
+    background-image: url(fondo\ pagina2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     height: 1800px;

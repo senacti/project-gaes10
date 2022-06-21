@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;  
+  }
+
+ 
+body,
+html{
+    font-family: 'Montserrat',sans-serif;
+}
+h1{
+    font-size: 2.8rem;
+}
+
+h4{ 
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+  }
+  
+  a { text-decoration: none; }
+  
+  
+  .container {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+  }
+  
+  .large {
+    font-size: 1.2rem;
+  }
+  
+  .display-1 {
+    font-size: 72px;
+    font-weight: 400;
+  }
+  
+  .text-yellow {
+    color: #fa8507;
+  }
+  
+  .btn {
+    display: inline-block;
+    font-size: 14px;
+    padding:12px 23px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 4px;
+  }
+  
+  .btn-light {
+    background: #151515;
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+  
+  .btn-100 {
+    width: 100%;
+  }
+  
+  form label{
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  form .form-group {
+    margin-bottom: 16px;
+  }
+  
+  form .form-control {
+    display: block;
+    width: 100%;
+    padding: 9px 14px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #415c69;
+    background-color: #ededed;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+  }
+  
+  
+  #navbar {
+    background: #020209;
+    color: rgb(255, 255, 255);
+    overflow: auto;
+    padding-top: 25px;
+    height: 12vh;
+  }
+  
+  #navbar a {
+    color: #fff;
+  }
+  
+  #navbar .logo {
+    float: left;
+    padding-top:16px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    float: right;
+  }
+  
+  #navbar ul li {
+    float: left;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  #showcase {
+    background: linear-gradient(to right, #f88603, #eabd78);
+    color: rgb(251, 246, 246);
+    height: 88vh;
+    padding-top: 120px;
+  }
+  
+  .showcase-title {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+  }
+  
+  .showcase-title p {
+    padding: 20px 0;
+  }
+  
+  .showcase-img {
+    float: right;
+    width: 40%;
+    padding: 20px;
+
+
+  }
+  
+  .showcase-img img {
+    width: 100%;
+    border-radius: 9px;
+  }
+  
+  
+  #eventos {
+    padding: 90px 120px;
+  }
+  
+  .eventos-card {
+    padding-top: 70px;
+  }
+  
+  .card {
+    float: left;
+    width: 90%;
+    border-radius: 9px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .imagen{
+    border-radius: 20px;
+  }
+  
+  
+  #Foster {
+    background: #02020d;
+    color: #fff;
+    padding: 90px 120px;
+    text-align: center;
+  }
+  
+  #Foster h4 {
+    padding-bottom: 50px;
+  }
+  
+  #Foster p {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  #DatosPersonales {
+    padding: 90px 120px;
+  }
+  
+  #DatosPersonales form {
+    padding-top: 90px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  #mainfooter {
+    background: #131312;
+    text-align: center;
+    padding: 30px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #151515;
+}
