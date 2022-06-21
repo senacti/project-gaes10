@@ -52,7 +52,7 @@ tr:hover td{
   }
   
   li {
-    float: left;
+    float: right;
   }
   
   li a {
@@ -176,5 +176,8 @@ tr:hover td{
     background-attachment: fixed;
     background-size: cover;
    
+}
+.inicio{
+  float: left;
 }
      
