@@ -56,7 +56,8 @@
       <b>
         <p>Nombre de usuario</p>
       </b>
-      <input class="Registro" type="text" name="usuario" id="usuario" required/>
+      <input class="Registro" type="text" name="usuario" id="usuario" required 
+        minlength="25" maxlength="20"/>
       <b>
         <p>Contraseña</p>
       </b>
@@ -66,11 +67,13 @@
         name="contraseña"
         id="contraseña"
         required
+        minlength="15" maxlength="20"
       />
       <b>
         <p>Confirmar Contraseña</p>
       </b>
-      <input class="Registro" type="password" name="confirmar" id="confirmar" required/>
+      <input class="Registro" type="password" name="confirmar" id="confirmar" required 
+         minlength="15" maxlength="20"/>
       <b>
         <p>Numero de Telefono</p>
       </b>
@@ -81,6 +84,8 @@
         id="telefono"
         placeholder="Opcional"
         required
+        maxlength="10"
+        minlength="10"
       />
       <b>
         <p>Correo electronico de recuperación</p>
@@ -91,7 +96,6 @@
         name="email"
         id="email"
         placeholder="ejmplo@gmail.com"
-        required
       />
       <b>
         <p>Genero</p>
@@ -110,7 +114,7 @@
       <input class="Registro" type="number" name="codigo" id="codigo" required/>
 
         <button type="submit" onclick="validar()" id="warnings" class="warnings">Enviar</button>
-        <a href=""><button>Cancelar</button></a>
+        <a href="/login.html"><button>Cancelar</button></a>
 
     </form>
     <footer class="footer" id="foster">
