@@ -21,19 +21,19 @@ function validate() {
         if(cedula!== "" ){
           if(fecha!== ""){
             if(servicio!== "--Servicios Basicos--"){
-              alert("Enviado")
+              alert("Formulario Enviado")
             }else{
               alert("ingrese un servicio")
             }
           }else("ingrese fecha")
         }else{
-          alert("ingrese cedula")
+          alert("ingrese su cedula")
         }
       }else{
-        alert("ingrese celular")
+        alert("ingrese un celular")
       }
     }else{
-      alert("ingrese un aplli")
+      alert("ingrese sus apellidos")
     }
   }else{
     alert("ingrese un nombre")
