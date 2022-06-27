@@ -161,3 +161,25 @@ header {
 .menuP{
   font-family: 'Galdeano', sans-serif;
 }
+button {
+  background-color: #c5c5c5;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: -40 1100px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+button:hover{
+
+  background-color: #f07a03;
+  color: white;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
