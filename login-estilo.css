@@ -18,11 +18,11 @@ body {
   padding-top: 20px;
 }
 .login-box {
-  margin: 300px 658px;
+  margin: 350px 700px;
   width: 400px;
   padding: 60px;
   transform: translate(-50%, -50%);
-  background: linear-gradient(rgb(240, 230, 230) ,#e2c7b0 );
+  background: linear-gradient(rgb(194, 194, 194) ,#fff9f4 );
   box-sizing: border-box;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
@@ -205,7 +205,7 @@ header .texto-header {
   text-align: center;
 }
 .botonini {
-  background-color: #5f97c27e;
+  background-color: #a1a1a1ec;
   border: none;
   color: rgb(0, 0, 0);
   padding: 8px 127px;
@@ -217,7 +217,7 @@ header .texto-header {
   border-radius: 4px;
 }
 .botonA {
-  background-color: #5f97c28c;
+  background-color: #a1a1a1ec;
   border: none;
   color: rgb(0, 0, 0);
   padding: 8px 99px;
