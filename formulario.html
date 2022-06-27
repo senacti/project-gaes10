@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="/fromulario.js"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -73,7 +72,6 @@
                     id="nombres"
                     name="nombres"
                     placeholder="Ingrese nombres"
-                    required
                   />
                 </div>
                 <div class="form-group col-sm-6 flex-column d-flex">
@@ -85,7 +83,6 @@
                     id="apellidos"
                     name="apellidos"
                     placeholder="Ingrese apellidos"
-                    required
                   />
                 </div>
               </div>
@@ -99,7 +96,6 @@
                     id="email"
                     name="email"
                     placeholder="Ingrese su email"
-                    required
                   />
                 </div>
                 <div class="form-group col-sm-6 flex-column d-flex">
@@ -111,7 +107,6 @@
                     id="celular"
                     name="celular"
                     placeholder="Ingrese su celular"
-                    required
                   />
                 </div>
               </div>
@@ -125,14 +120,13 @@
                     id="cedula"
                     name="cedula"
                     placeholder="Numero de cedula"
-                    required
                   />
                 </div>
                 <div class="form-group col-sm-6 flex-column d-flex">
                   <label class="form-control-label px-3"
                     >Fecha de servicio<span class="text-danger"> *</span></label
                   >
-                  <input type="date" id="fecha" name="Fecha" required />
+                  <input type="date" id="fecha" name="Fecha"/>
                 </div>
               </div>
               <div class="row justify-content-between text-left">
@@ -143,7 +137,7 @@
                     ></label
                   >
                   <select name="ciudad" id="ciudad" required>
-                    <option value="">--Servicios Basicos--</option>
+                    <option value="--Servicios Basicos--">--Servicios Basicos--</option>
                     <option value="Barranquilla">Basico</option>
                     <option value="cartagena">Cumpleaños</option>
                     <option value="bogota">Baby Shower</option>
@@ -164,7 +158,7 @@
               </div>
               <div class="row justify-content-center text-center">
                 <div class="form-group col-sm-8">
-                  <button type="submit" class="btn-block btn-dark" onclick="Ingreso()">
+                  <button type="submit" class="btn-block btn-dark" onclick="validate()">
                     Enviar
                   </button>
                 </div>
@@ -193,5 +187,6 @@
         <p>Telefono 312-5372204</p>
       </div>
     </section>
+    <script src="/fromulario.js"></script>
   </body>
 </html>
