@@ -6,15 +6,6 @@ function validate() {
   const fecha = document.getElementById("fecha").value;
   const servicio = document.getElementById("ciudad").value;
 
-
-
-  /*if (nombres == "" && apellidos == "" && celular == "" && cedula == "" && fecha == "" && servicio == "--Servicios Basicos--"){
-    alert("Ingrese todos los datos")
-
-  }else{
-    alert("formulario eviado")
-  }*/
-
   if (nombres!== ""){
     if(apellidos!== ""){
       if (celular!== ""){
