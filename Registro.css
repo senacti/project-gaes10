@@ -15,11 +15,9 @@ body {
 }
 
 .Formulario {
-  width: 500px;
+  width: 915px;
   background: #ffffff;
-  padding: 45px;
   margin: auto;
-  margin-top: 100px;
   border-radius: 15px;
   font-family: "calibri";
   color: rgb(22, 20, 20);
@@ -32,12 +30,11 @@ body {
   text-align: center;
 }
 .Registro {
-  width: 100%;
-  background: #ffffff;
+  width: 380px;
+  background: #f0f0f0;
   padding: 10px;
-  border-radius: 4px;
   margin-bottom: 16px;
-  border: 1px solid #000000;
+  border: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px;
 }
@@ -53,14 +50,11 @@ body {
 .select {
   display: inline-block;
   cursor: pointer;
-  position: relative;
-  padding: 5px 15px 5px 51px;
-  width: 100%;
-  background: #ffffff;
+  width: 380px;
+  background: #f0f0f0;
   padding: 10px;
-  border-radius: 4px;
   margin-bottom: 16px;
-  border: 1px solid #000000;
+  border: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px;
   text-align: center;
@@ -213,3 +207,71 @@ li a:hover:not(.active) {
 .inicio{
   float: left;
 }    
+
+/* arreglando formulario*/
+input:focus{
+  outline: none;
+}
+.boton{
+  margin-left: 45px;
+  width: 850px;
+  padding: 10px;
+  border-radius: 2px;
+  background: #ecb297;
+}
+.cancelar{
+  margin-top: -10px;
+}
+.hover:hover{
+  background-color: #f07a03;
+  color: #fefcfc;
+}
+.cabezera{
+  background: #1333ac;
+  color: azure;
+  text-align: center;
+  border: 45px solid white;
+  padding: 20px 40px;
+}
+/*Organizando cajas*/
+.nombre{
+  margin-left: 45px;
+}
+.apellidos{
+  margin-top: -100px;
+  margin-left: 480px;
+}
+.usuario{
+  margin-left: 45px;
+}
+.correo{
+  margin-top: -100px;
+  margin-left: 480px;
+}
+.telefono{
+  margin-left: 45px;
+}
+.genero{
+  margin-top: -100px;
+  margin-left: 480px;
+}
+.contraseña{
+  margin-left: 45px;
+}
+.confir{
+  margin-top: -100px;
+  margin-left: 480px;
+}
+.codigo{
+  margin-left: 45px;
+}
+.codigo2{
+  width: 820px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: none;
+  font-size: 18px;
+
+}
+
