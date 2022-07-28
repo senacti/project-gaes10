@@ -12,11 +12,13 @@
     <header class="menu">
       <ul>
         <li class="inicio"><a class="active" href="#home">Inicio</a></li>
-        <li><a class="nemuP" href="login.html">Iniciar Sesión</a></li>
-        <li><a class="nemuP" href="formulario.html">Solicitar Evento</a></li>
-        <li><a class="nemuP" href="programacion.html">Programación</a></li>
+        <li><a class="menuP" href="login.html">Iniciar Sesión</a></li>
+        <li><a class="menuP" href="formulario.html">Solicitar Evento</a></li>
+        <li><a class="menuP" href="programacion.html">Programación</a></li>
         <li>
-          <a class="nemuP" href="Contratación.html">Acerca de nosotros</a>
+          <a class="menuP" href="Contratación.html"
+            >Acerca de nosotros</a
+          >
         </li>
       </ul>
       <section class="texto-header">
@@ -36,161 +38,130 @@
         </svg>
       </div>
     </header>
+    <div class="contendorP">
+      <h1 class="Titulo">Registrar usuario</h1>
 
-    <div class="contendor">
-              <h1 class="Titulo">Registrar usuario</h1>
-
-      <form action="" class="Formulario" id="form">
-      <div class="cabezera">
-        <b>
-          <h4>Nueva cuenta</h4>
-        </b>
+    <form action="" class="Formulario" id="form">
+      <div class="cabecera">
+        <h4>Nueva Cuenta</h4>
       </div>
-        <div class="nombre">
+      <div class="nombre">
         <b>
-          <p>Ingrese su nombre completo</p>
-        </b>
-        <input
-          class="Registro"
-          type="text"
-          name="nombre"
-          id="nombre"
-          required
-        />
-        <b>
-        </div>
-        <div class="apellidos">
-          <p>Ingrese sus apellidos</p>
+            <p>Nombres</p>
           </b>
-          <input
-          class="Registro"
-          type="text"
-          name="apellido"
-          id="apellido"
-          required
-          />
-        </div>
-        <div class="usuario">
+          <input class="Registro" type="text" name="nombre" id="nombre" required/>
+          <b>
+      </div>
+      <div class="apellidos">
+          <p>Apellidos</p>
+          </b>
+          <input class="Registro" type="text" name="apellido" id="apellido" required/>
+          <b>
+      </div>
+      <div class="usuario">
+         <p>Nombre de usuario</p>
+         </b>
+         <input class="Registro" type="text" name="usuario" id="usuario" required 
+         minlength="25" maxlength="20"/>
          <b>
-          <p>Nombre de usuario</p>
+      </div>
+      <div class="correo">
+        <p>Correo electronico de recuperación</p>
+       </b>
+       <input
+        class="Registro"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="ejmplo@gmail.com"
+       />
+       <b>
+      </div>
+      <div>
+      <div class="telefono">
+         <p>Numero de Telefono</p>
+         </b>
+      <input
+        class="Registro"
+        type="number"
+        name="telefono"
+        id="telefono"
+        placeholder="Opcional"
+        maxlength="10"
+        minlength="10"
+      />
+      <b>
+      </div>
+      <div class="genero">
+        <p>Genero</p>
+       </b>
+       <select class="select" name="genero" id="genero">
+        <option value="opcion 0">Seleccione</option>
+        <option value="opcion 1">Masculino</option>
+        <option value="opcion 2 ">Femenino</option>
+        <option value="opcion 3">Prefiero no decirlo</option>
+        <option value="opcion 4">Personalizado</option>
+       </select>
+       <b>
+      </div>
+      <div class="contraseña">
+         <p>Contraseña</p>
          </b>
          <input
-          class="Registro"
-          type="text"
-          name="usuario"
-          id="usuario"
-          required
-          minlength="25"
-          maxlength="20"
-         />
-        </div>
-        <div class="telefono">
-           b>
-           <p>Numero de Telefono</p>
-          </b>
-         <input
-          class="Registro"
-          type="number"
-          name="telefono"
-          id="telefono"
-          placeholder="Opcional"
-          required
-          maxlength="10"
-          minlength="10"
-          />
-        </div>
-        <div class="correo">
-            <b>
-             <p>Correo electronico de recuperación</p>
-            </b>
-           <input
-           class="Registro"
-           type="email"
-           name="email"
-           id="email"
-           placeholder="ejmplo@gmail.com"
-           />
-        </div>
-        <div class="genero">
-            <b>
-              <p>Genero</p>
-            </b>
-           <select class="select" name="genero" id="genero">
-             <option value="opcion 0">Seleccione</option>
-             <option value="opcion 1">Masculino</option>
-             <option value="opcion 2 ">Femenino</option>
-             <option value="opcion 3">Prefiero no decirlo</option>
-             <option value="opcion 4">Personalizado</option>
-           </select>
-        </div>
-        <div class="contraseña">
-            <b>
-             <p>Contraseña</p>
-           </b>
-          <input
-          class="Registro"
-          type="password"
-          name="contraseña"
-          id="contraseña"
-          required
-          minlength="15"
-          maxlength="20"
-          />
-        </div>
-        <div class="confir">
-           <b>
-             <p>Confirmar Contraseña</p>
-           </b>
-           <input
-           class="Registro"
-           type="password"
-           name="confirmar"
-           id="confirmar"
-           required
-           minlength="15"
-           maxlength="20"
-           />
-        </div>
+         class="Registro" type="password" name="contraseña" id="contraseña" required minlength="" maxlength="20"/>
+         <b>
+      </div>
+      <div class="confir">
+         <p>Confirmar Contraseña</p>
+         </b>
+         <input class="Registro" type="password" name="confirmar" id="confirmar" required 
+         minlength="8" maxlength="20"/>
+         <b>
+      </div>
 
+      </div>
+      <div class="codigo">
+        <p>Ingrese codigo de Usuario</p>
+        </b>
+        <input class="codigo2" type="number" name="codigo" id="codigo" required/>
+      </div>
 
-
-        <div class="codigo">
-            <b>
-              <p>Ingrese codigo de Usuario</p>
-            </b>
-            <input
-            class="Registro  codigo2"
-            type="number"
-            name="codigo"
-            id="codigo"
-            required
-            />
-        </div>
+      <div>
         <button class="boton enviar hover" type="submit" onclick="validar()" id="warnings">Enviar</button>
-        <button class="boton cancelar hover">Cancelar</button>
-      </form>
+      </div>
+      <div>
+         <button class="boton cancelar hover">Cancelar</button>
+      </div>
+    </form>
+    
+
+    <div class="bola1"></div>
+    <div class="bola2"></div>
+    <div class="bola3"></div>
+    <div class="bola4"></div>
+    <div class="bola5"></div>
+    <div class="bola6"></div>
     </div>
-
     <div class="contenedorF">
-      <footer class="footer" id="foster">
-        <div>
-          <h2 class="h4">Foster Eventos y Recreación</h2>
+          <footer class="footer" id="foster">
+      <div> 
+        <h2 class="h4">Foster Eventos y Recreación</h2>
 
-          <p class="p1">
-            Somos una empresa seria innovadora dedicada al entretenimiento
-            familiar y colectivo de una manera sana y divertida, brindando
-            diversos servicios con la calidad y respeto que nuestros clientes
-            merecen, pensando siempre en nuestro país y nuestra comunidad
-            brindando una forma de empleo a los jóvenes y diversas personas que
-            nos rodean como Djs, animadores, fotógrafos , decoradores ,
-            pasteleros , mariachis etc. (SI TIENES ALGÚN TALENTO U ORGANIZACIÓN
-            QUE CREES QUE NOS PUEDA SERVIR SOLO CONTÁCTANOS).
-          </p>
+        <p class="p1">
+          Somos una empresa seria innovadora dedicada al entretenimiento
+          familiar y colectivo de una manera sana y divertida, brindando
+          diversos servicios con la calidad y respeto que nuestros clientes
+          merecen, pensando siempre en nuestro país y nuestra comunidad
+          brindando una forma de empleo a los jóvenes y diversas personas que
+          nos rodean como Djs, animadores, fotógrafos , decoradores , pasteleros
+          , mariachis etc. (SI TIENES ALGÚN TALENTO U ORGANIZACIÓN QUE CREES QUE
+          NOS PUEDA SERVIR SOLO CONTÁCTANOS).
+        </p>
 
-          <p class="inform">Oscar Maecha</p>
-          <p class="inform">Telefono 312-5372204</p>
-        </div>
-      </footer>
+        <p class="inform">Oscar Maecha</p>
+        <p class="inform">Telefono 312-5372204</p>
+      </div>
+    </footer>
     </div>
   </body>
 </html>

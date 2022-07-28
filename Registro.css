@@ -18,10 +18,11 @@ body {
   width: 915px;
   background: #ffffff;
   margin: auto;
+  margin-top: 100px;
   border-radius: 15px;
   font-family: "calibri";
-  color: rgb(22, 20, 20);
-  box-shadow: 7px 13px 37px rgb(0, 0, 0);
+  color: #161414;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.364);
 }
 
 .Formulario h4 {
@@ -31,7 +32,7 @@ body {
 }
 .Registro {
   width: 380px;
-  background: #f0f0f0;
+  background-color: #f0f0f0;
   padding: 10px;
   margin-bottom: 16px;
   border: none;
@@ -50,9 +51,12 @@ body {
 .select {
   display: inline-block;
   cursor: pointer;
+  position: relative;
+  padding: 5px 15px 5px 51px;
   width: 380px;
   background: #f0f0f0;
   padding: 10px;
+  border-radius: 4px;
   margin-bottom: 16px;
   border: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -63,7 +67,6 @@ button {
   background-color: #c5c5c5;
   border: none;
   color: rgb(0, 0, 0);
-  padding: 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -72,7 +75,6 @@ button {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
-  border-radius: 4px;
 }
 
 header {
@@ -157,7 +159,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: rgb(255, 98, 0);
 }
 
 .active {
@@ -166,7 +168,6 @@ li a:hover:not(.active) {
 
 .footer {
   margin: 100px 0px;
-
   max-width: 5000%;
   overflow: 1000px;
   padding: 50px 50px;
@@ -207,33 +208,7 @@ li a:hover:not(.active) {
 .inicio{
   float: left;
 }    
-
-/* arreglando formulario*/
-input:focus{
-  outline: none;
-}
-.boton{
-  margin-left: 45px;
-  width: 850px;
-  padding: 10px;
-  border-radius: 2px;
-  background: #ecb297;
-}
-.cancelar{
-  margin-top: -10px;
-}
-.hover:hover{
-  background-color: #f07a03;
-  color: #fefcfc;
-}
-.cabezera{
-  background: #1333ac;
-  color: azure;
-  text-align: center;
-  border: 45px solid white;
-  padding: 20px 40px;
-}
-/*Organizando cajas*/
+/*Organizand cajas*/
 .nombre{
   margin-left: 45px;
 }
@@ -271,7 +246,99 @@ input:focus{
   padding: 10px;
   margin-bottom: 16px;
   border: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px;
-
 }
+input:focus {
+  outline: none;
+}
+.boton{
+  margin-left: 45px;
+  width: 825px;
+  padding: 10px;
+  border-radius: 2px;
+  background: #ecb297;
+}
+.cancelar{
+  margin-top: -10px;
+}
+.hover:hover{
+  background-color: #f07a03;
+  color: #fefcfc;
+}
+.cabecera {
+  background: #13334c;
+  color:azure;
+  text-align: center;
+  border-bottom: 45px solid white;
+  padding: 20px 40px;
+}
+/*Diseño de fondo*/
+.bola1{
+  width: 100px;
+  height: 100px;
+  background-color: #afc6d7fd;
+  border-radius: 50px 50px 50px 50px;
+  position: absolute;
+  margin-top: -600px;
+  margin-left: 125px;
+  box-shadow:8px 8px 8px #9db9cf;
+}
+.bola2{
+  width: 65px;
+  height: 100px;
+  background-color: #13334c;
+  border-radius: 1000px 50px 100px 1000px;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 150px;
+  box-shadow:3px 2px 3px #9db9cf;
+}
+.bola3{
+  width: 115px;
+  height: 115px;
+  background-color: #5986a8e8;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -883px;
+  margin-left: 855px;
+  box-shadow:8px 8px 8px #9db9cf;
+}
+.bola4{
+  width: 150px;
+  height: 150px;
+  background-color: #afc6d7fd;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 1150px;
+  box-shadow:8px 8px 8px #9db9cf;
+}
+.bola5{
+  width: 100px;
+  height: 100px;
+  background-color: #7c9db5fd;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -915px;
+  margin-left: 95px;
+  box-shadow:8px 8px 8px #9db9cf;
+}
+.bola6{
+  width: 95px;
+  height: 95px;
+  background-color: #7c9db5fd;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -550px;
+  margin-left: 1190px;
+  box-shadow:8px 8px 8px #9db9cf;
+}
+.contenedorP{
+  position: relative;
+}
+
+
+
+
 
